@@ -5,6 +5,7 @@ public class App {
 		
 		
 		System.out.println("Hello World - Fully Automated Pipeline!");
+		System.out.println("testing automation again");
 
 	}
 
