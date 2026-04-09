@@ -3,4 +3,22 @@
   <groupId>com.ci_cd_practice</groupId>
   <artifactId>hello-world-ci</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <version>3.3.0</version>
+            <configuration>
+                <archive>
+                    <manifest>
+                        <mainClass>App</mainClass>
+                    </manifest>
+                </archive>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+  
 </project>
