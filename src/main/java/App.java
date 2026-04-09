@@ -4,7 +4,7 @@ public class App {
 	public static void main(String[] args) {
 		
 		
-		System.out.println("from jenkins");
+		System.out.println("Hello World - Fully Automated Pipeline!");
 
 	}
 
